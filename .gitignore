@@ -8,6 +8,7 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
+/html/
 
 ## Specific to RubyMotion:
 .dat*
@@ -19,6 +20,12 @@ build/
 /_yardoc/
 /doc/
 /rdoc/
+
+# Don't track the quick-rake cache file
+.rake_tasks
+
+# Gemfile lockfile
+Gemfile.lock
 
 ## Environment normalisation:
 /.bundle/
